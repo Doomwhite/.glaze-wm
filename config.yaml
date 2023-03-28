@@ -67,101 +67,101 @@ window_rules:
 keybindings:
   # Shift focus in a given direction.
   - command: "focus left"
-    bindings: ["LWin+ControlKey+Menu+H", "LWin+ControlKey+Menu+Left"]
+    bindings: ["F24+H", "F24+Left"]
   - command: "focus right"
-    bindings: ["LWin+ControlKey+Menu+L", "LWin+ControlKey+Menu+Right"]
+    bindings: ["F24+L", "F24+Right"]
   - command: "focus up"
-    bindings: ["LWin+ControlKey+Menu+K", "LWin+ControlKey+Menu+Up"]
+    bindings: ["F24+K", "F24+Up"]
   - command: "focus down"
-    bindings: ["LWin+ControlKey+Menu+J", "LWin+ControlKey+Menu+Down"]
+    bindings: ["F24+J", "F24+Down"]
 
   # Move focused window in a given direction.
   - command: "move left"
-    bindings: ["LWin+ControlKey+Menu+Control+H", "LWin+ControlKey+Menu+Control+Left"]
+    bindings: ["F24+Control+H", "F24+Control+Left"]
   - command: "move right"
-    bindings: ["LWin+ControlKey+Menu+Control+L", "LWin+ControlKey+Menu+Control+Right"]
+    bindings: ["F24+Control+L", "F24+Control+Right"]
   - command: "move up"
-    bindings: ["LWin+ControlKey+Menu+Control+K", "LWin+ControlKey+Menu+Control+Up"]
+    bindings: ["F24+Control+K", "F24+Control+Up"]
   - command: "move down"
-    bindings: ["LWin+ControlKey+Menu+Control+J", "LWin+ControlKey+Menu+Control+Down"]
+    bindings: ["F24+Control+J", "F24+Control+Down"]
 
   # Resize focused window by a percentage or pixel amount.
   - command: "resize width -2%"
-    binding: "LWin+ControlKey+Menu+U"
+    binding: "F24+Y"
   - command: "resize width +2%"
-    binding: "LWin+ControlKey+Menu+P"
+    binding: "F24+U"
   - command: "resize height +2%"
-    binding: "LWin+ControlKey+Menu+O"
+    binding: "F24+I"
   - command: "resize height -2%"
-    binding: "LWin+ControlKey+Menu+I"
+    binding: "F24+P"
 
   # Change layout direction to be either horizontal or vertical.
   - command: "layout horizontal"
-    binding: "LWin+ControlKey+Menu+Control+V"
+    binding: "F24+Control+V"
   - command: "layout vertical"
-    binding: "LWin+ControlKey+Menu+V"
+    binding: "F24+V" 
 
   # Change focus between floating / tiling windows.
   - command: "toggle focus mode"
-    binding: "LWin+ControlKey+Menu+Control+Space"
+    binding: "F24+Control+Space"
 
   # Change the focused window to be floating / tiling.
   - command: "toggle floating"
-    binding: "LWin+ControlKey+Menu+Control+F"
+    binding: "F24+Control+F"
 
   # Change the focused window to be maximized / unmaximized.
   - command: "toggle maximized"
-    binding: "LWin+ControlKey+Menu+X"
+    binding: "F24+X"
 
   # Minimize focused window.
   - command: "set minimized"
-    binding: "LWin+ControlKey+Menu+M"
+    binding: "F24+M"
 
   # Close focused window.
   - command: "close"
-    binding: "LWin+ControlKey+Menu+Q"
+    binding: "F24+Q"
 
   # Kill GlazeWM process safely.
   - command: "exit wm"
-    binding: "LWin+ControlKey+Menu+Control+Q"
+    binding: "F24+Control+Q"
 
   # Re-evaluate configuration file.
   - command: "reload config"
-    binding: "LWin+ControlKey+Menu+Control+Z"
+    binding: "F24+Control+Z"
 
   # Launch CMD terminal (alternatively `exec wt` or `exec %ProgramFiles%/Git/git-bash.exe`
   # to start Windows Terminal and Git Bash respectively.
   # - command: "exec wezterm"
-  # binding: "LWin+ControlKey+Menu+T"
+  # binding: "F24+T"
 
   # Change focus to a workspace defined in `workspaces` config.
   - command: "focus workspace next"
-    binding: "LWin+ControlKey+Menu+D"
+    binding: "F24+D"
   - command: "focus workspace prev"
-    binding: "LWin+ControlKey+Menu+Shift+D"
+    binding: "F24+Shift+D"
   - command: "focus workspace 1"
-    binding: "LWin+ControlKey+Menu+W"
+    binding: "F24+W"
   - command: "focus workspace 2"
-    binding: "LWin+ControlKey+Menu+E"
+    binding: "F24+E"
   - command: "focus workspace 3"
-    binding: "LWin+ControlKey+Menu+R"
+    binding: "F24+R"
   - command: "focus workspace 4"
-    binding: "LWin+ControlKey+Menu+1"
+    binding: "F24+1"
   - command: "focus workspace 5"
-    binding: "LWin+ControlKey+Menu+2"
+    binding: "F24+2"
   - command: "focus workspace 6"
-    binding: "LWin+ControlKey+Menu+3"
+    binding: "F24+3"
 
   # Move focused window to a workspace defined in `workspaces` config.
   - commands: ["move to workspace 1", "focus workspace 1"]
-    binding: "LWin+ControlKey+Menu+Control+W"
+    binding: "F24+Control+W"
   - commands: ["move to workspace 2", "focus workspace 2"]
-    binding: "LWin+ControlKey+Menu+Control+E"
+    binding: "F24+Control+E"
   - commands: ["move to workspace 3", "focus workspace 3"]
-    binding: "LWin+ControlKey+Menu+Control+R"
+    binding: "F24+Control+R"
   - commands: ["move to workspace 4", "focus workspace 4"]
-    binding: "LWin+ControlKey+Menu+Control+1"
+    binding: "F24+Control+1"
   - commands: ["move to workspace 5", "focus workspace 5"]
-    binding: "LWin+ControlKey+Menu+Control+2"
+    binding: "F24+Control+2"
   - commands: ["move to workspace 6", "focus workspace 6"]
-    binding: "LWin+ControlKey+Menu+Control+3"
+    binding: "F24+Control+3"
